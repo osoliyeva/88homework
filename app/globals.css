@@ -1,0 +1,50 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+.main__container{
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px #616060;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #acf308b3;
+};
+.form{
+    display: flex;
+    gap: 10px;
+}
+.submit{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10%;
+    background-color: rgb(247, 92, 35);
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color:  rgb(245, 135, 94);
+}
+
+input{
+    padding: 10px 20px;
+    border: none;
+
+}
